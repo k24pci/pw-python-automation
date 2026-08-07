@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest / test caches
+.pytest_cache/
+.cache/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Allure reports (if used)
+allure-results/
+allure-report/
+
+# Coverage
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# Env / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Just for fun ignoring
+not_for_github.py
