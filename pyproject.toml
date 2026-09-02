@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+exclude = '''
+/(
+    .venv
+  | .git
+  | __pycache__
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+skip = [".venv", ".git", "__pycache__"]
